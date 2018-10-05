@@ -25,12 +25,12 @@ public class DropBoxLogin {
 
     @AfterMethod
     public void tearDown() {
-//        driver.close(); //Close the current window..
+        driver.close(); //Close the current window..
     }
 
     @AfterClass
     public void afterClass() {
-//        driver.quit(); //Quits this driver, closing every associated window.
+        driver.quit(); //Quits this driver, closing every associated window.
     }
 
     @Test
